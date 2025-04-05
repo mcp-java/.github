@@ -1,0 +1,38 @@
+# MCP Java
+
+Welcome to the Model Context Protocol for Java landing page.
+
+The Java ecosystem offers several robust frameworks for building MCP servers, and we're here to make it easy to run MCP Servers in Java - and if you want to, also <<_developing_mcp_servers_in_java,write a Java based server>>.
+
+== Running MCP Servers in Java
+
+Goto the link:https://mcp-java.github.io[mcp-java.github.io] section to find a list of MCP Servers in Java and instructions how to run them using JBang.
+
+
+=== Why JBang ? 
+
+Normally to run a java application you to download a JDK, download the necessary Jars and run them manually - but that get tiresome quickly; and for sure many users of MCP are not Java developers and don't want to deal with that.
+
+Hence why we use JBang in our documenation and tools to run the MCP Servers.
+
+It is avaiable for all platforms and can also be used directly from other ecosystems like JavaScript, Python or even docker containers.
+
+== Developing MCP Servers in Java
+
+There are multiple ways to write a MCP server in Java, each with their own trade-offs.
+
+== Available Implementations
+
+There are multiple options to write a Java basd MCP Server in Java, each with their own trade-offs and best fit into different ecosystems.
+
+* https://docs.quarkiverse.io/quarkus-mcp-server/dev/[Quarkus MCP] is a Quarkus extension that allows you to write a MCP server in Java.
+
+* link:https://github.com/wildfly-extras/wildfly-mcp[WildFly MCP] enables using the WildFly Jakarta EEapplication server as a host of MCP servers.
+
+* Anthropics https://github.com/modelcontextprotocol/java-sdk[Java MCP SDK] is based on the Reactor framework and fits well with the Spring ecosystem.
+
+* Anthropics https://github.com/modelcontextprotocol/kotlin-sdk[Kotlin MCP SDK] allows you to write a MCP server in Kotlin.
+
+If you want to add your implementation to the list, please https://github.com/mcp-java/mcp-java.github.io/edit/main/.github/profile/README.adoc[edit this file] and submit a PR to add it to the list.
+
+
