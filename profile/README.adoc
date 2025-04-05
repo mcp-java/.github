@@ -8,6 +8,7 @@ The Java ecosystem offers several robust frameworks for building MCP servers, an
 
 Goto the link:https://mcp-java.github.io[mcp-java.github.io] section to find a list of MCP Servers in Java and instructions how to run them using JBang.
 
+If you want to add you own MCP Server to the list, submit a PR to this link:https://github.com/mcp-java/jbang-catalog[JBang Catalog] repository.
 
 === Why JBang ? 
 
